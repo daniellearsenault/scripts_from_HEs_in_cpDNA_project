@@ -2,8 +2,8 @@
 import os
 import re
 
-#purpose phrased as a problem: We want to build a multi-species host phylogeny for chloroplast and plastid genomes, to do so we need
-#to create gene trees for large genes that appear in all or a strong majority of these genomes. 
+#purpose phrased as a problem: We want to build a multi-species consensus host phylogeny for chloroplast and plastid genomes, to do so we need
+#to first create gene trees for large genes that appear in all or a strong majority of these genomes. 
 #Given a directory containing an unknown amount of <genename>.fst files, where each file contains the results/hits of
 #a blastp search of one instance of that gene (from the same sp. across all searches) against a databank of full coding sequences for a group of genomes,
 #report which genomes do not appear in each genefile, and which genes are not found in each genome. A list of the genome accession numbers is provided.
