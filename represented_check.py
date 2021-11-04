@@ -5,7 +5,7 @@ import re
 
 #purpose phrased as a problem: Given a directory containing an unknown amount of <genename>.fst files, where each file contains the results/hits of
 #a blastp search of one instance of that gene (from the same sp. across all searches) against a databank of full coding sequences for a group of genomes,
-#report which genomes do not appear in each genefile, and which genes are not found in each genome.
+#report which genomes do not appear in each genefile, and which genes are not found in each genome. A list of the genome accession numbers is provided.
 
 #original purpose: run in a directory containing many gene msfastas, ea. gene msfasta (ex. atpA.fst) contain the result of blastp query gene from query sp. against
 #search set db of all CDS seqs for all complete cplast+plastid genomes in Chlorophyta in AA form
