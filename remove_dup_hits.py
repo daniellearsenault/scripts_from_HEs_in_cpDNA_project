@@ -11,16 +11,16 @@ date = today.strftime("%b-%d-%Y")
 #output == copy of MSFASTA where each genome is only represented ONCE, and is represented by its best hit according to evalues
 
 #NOTES:
+#!!!script was written based on the format of the FASTA complete seq download option
+#       from the web version of BLAST Suite tools example below - be sure to compare
+#       your output to this format first to assess any differences.
+#       >lcl|Query_12345 Name_NC_123.1
+#       SEQUENCE
 #save this script in the directory that contains all fasta files you want remove
 #       dupes/keep top hits from.
 #unless you edit the script yourself to do differently, it will run on ALL fasta
 #       files in the current directory. unrelated fasta files in the directory may
 #       cause errors.
-#script was written based on the format of the FASTA complete seq download option
-#       from the web version of BLAST Suite tools example below - be sure to compare
-#       your output to this format first to assess any differences.
-#       >lcl|Query_12345 Name_NC_123.1
-#       SEQUENCE
 #output: copy of ea. fasta file with all dupes removed (only 1st entry from ea. genome kept),
 #       with today's date at the beginning (ex. 'test1.fst' -> 'Oct-10-2021_test1.fst')
 
