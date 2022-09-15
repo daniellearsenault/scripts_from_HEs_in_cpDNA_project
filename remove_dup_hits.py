@@ -6,7 +6,7 @@ today = date.today()
 date = today.strftime("%b-%d-%Y")
 
 #original script purpose:
-#input == MSFASTA of blast hits organized by best to worst evalue, potentially multiple entries per genome
+#input == MSFASTA of blast hits organized by ascending e-value (best at top, worst at bottom), potentially multiple entries per genome
 #goal == we only want to keep the single best hit from each genome
 #output == copy of MSFASTA where each genome is only represented ONCE, and is represented by its best hit according to evalues
 
