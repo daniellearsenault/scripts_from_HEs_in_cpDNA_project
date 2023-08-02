@@ -1,9 +1,9 @@
 #designed for use with python 3 or later (just due to dif. in input functions)
 
-#input: mfannot .new output file
+#input: MFannot .new output file
 #output: gff3 annotation file
 
-#get input filename from user (mfannot .new output file)
+#get input filename from user (MFannot .new output file)
 infile = input('Enter mfannot .new output filename:\n')
 with open(infile, 'r') as raw_mfa:
     mfa = raw_mfa.readlines()
